@@ -125,6 +125,8 @@ exports.create = function (opts) {
 
     defineSetter("onResourceReceived", "resourceReceived");
 
+    defineSetter("onUnsupportedContentReceived", "unsupportedContentReceived");
+
     defineSetter("onAlert", "javaScriptAlertSent");
 
     defineSetter("onConsoleMessage", "javaScriptConsoleMessageSent");
